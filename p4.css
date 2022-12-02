@@ -1,0 +1,53 @@
+.tableau {
+    max-width: 800px;
+    background-color: #4177ef;
+    z-index: 1;
+}
+
+.lignes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.ligne {
+    margin-right: 1%;
+}
+.colonne {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.joueurUn{
+    background-color: red !important;
+}
+
+.joueurDeux{
+    background-color: yellow !important;
+}
+
+.case{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    border-radius: 69px;
+    z-index: 3;
+}
+
+.container{
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 69px;
+    background-color: white;
+    z-index: 2;
+
+}
+
+.active {
+    color: red;
+}
